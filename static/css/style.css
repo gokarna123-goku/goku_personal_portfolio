@@ -176,6 +176,18 @@
 
 /* About section */
 
+.about-section .img-thumbnail{
+    border-radius: 0px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(88, 0, 255,0.8);
+    border-right: 1px solid rgba(88, 0, 255,0.8);
+    border-bottom: 1px solid rgba(88, 0, 255,0.8);
+    padding: 8px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 100px;
+}
+
 .about-img{
     width: 100%;
     height: 84vh;
@@ -215,7 +227,66 @@
     /* letter-spacing: 0.88px; */
 }
 
+.progress{
+    border-radius: 0px !important;
+}
+
+.progress .bg{
+    background: #4b4a4a;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.hobbie-section{
+    border-left: 2px solid #c1c1c1 !important;
+}
+
+.hobbie-circle{
+    width: 30px;
+    height: 30px;
+    background: #dbdbdb !important;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.hobbie-category{
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+
 /* Serviecs Section */
+.service-tag{
+    border-bottom: 2px solid #5800FF;
+    font-size: 1.15rem;
+    color: #4b4a4a;
+    font-weight: 100;
+}
+
+.service-title{
+    font-size: 1.52rem;
+    color: #3f3f3f;
+    font-weight: 600;
+    letter-spacing: 0.988px;
+}
+
+.service-subtitle{
+    font-size: 0.988rem;
+    color: #4b4a4a;
+    font-weight: 100;
+}
+
+
+
+.service-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
 
 /* Projects Section */
 
