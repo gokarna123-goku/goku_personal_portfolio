@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+<!-- ========================= Navbar Section ========================= -->
+<div class="container-fluid px-0 mx-0 bg-light shadow-sm fixed-top mb-5">
+    <div class="container col-md-11">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand playfair logo" href="#">Goku</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars text-dark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item me-1">
+                            <a class="nav-link roboto active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link roboto" href="#">About</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link roboto" href="#">Services</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link roboto" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="nav-link roboto" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="btn btn-sm hire-btn px-4">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--  -->
+<!-- ========================= Landing Page Section ========================= -->
+<div class="container-fluid px-0 mx-0 my-5 py-5 bg-image">
+    <div class="container col-md-11">
+        <div class="row">
+            <div class="col-md-7 my-5 py-5">
+                <div class="p-3 landing-left-section me-5 my-4">
+                    <h6 class="text introduction my-3 roboto">Introduction</h6>
+                    <div class="intro-section mb-3">
+                        <h1 class="text intro-title roboto">
+                            I'm Gokarna Adhikari,
+                            <br>
+                            And I'm a <span class="main-tag playfair"></span>
+                        </h1>
+                    </div>
+                    <p class="text text-start mb-4 intro-desc pe-5 me-5 pt-3 roboto">
+                        I design and develop services for customers of all sizes, modern websites, specializing in
+                        creating stylish, web services and online stores. My passion is to design digital user
+                        experiences through the bold interface and meaningful interactions.
+                    </p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <button class="btn px-3 me-4 cv-btn">Download CV</button>
+                        <button class="btn px-3 portfolio-btn">Portfolio</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 text-end">
+                <div class="px-3">
+                    <img src="static/images/goku2.jpg" alt="" class="img-thumbnail landing-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+
+{% endblock body %}
