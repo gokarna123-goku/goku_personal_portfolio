@@ -26,13 +26,15 @@
 
 /* background: #003865; */
 .hire-btn{
-    background: #635ad9;
+    background: #5800FF;
+    border: 2px solid #5800FF;
     color: #fff;
-    transition: 0.78s ease-in-out;
+    transition: 0.58s ease-in-out;
 }
 .hire-btn:hover{
-    background: #5800FF;
-    color: #fff;
+    background: none;
+    border: 2px solid #5800FF;
+    color: #5800FF;
 }
 /* border: 2px solid #003865; */
 
@@ -64,6 +66,11 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+/* .nav-item{
+    border-bottom: 2px solid #fff;
+    margin: 0 5px;
+} */
 
 .nav-link{
     font-size: 1.25rem;
@@ -166,7 +173,60 @@
     object-fit: cover;
     object-position: bottom;
 }
-/*  */
+
+/* About section */
+
+.about-img{
+    width: 100%;
+    height: 84vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .title-box{
+    border-bottom: 2px solid #5800FF;
+    width: 25%;
+} */
+
+.about-title{
+    font-size: 1.48rem;
+    color: #3f3f3f;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.hr{
+    background-color: #5800FF !important;
+    opacity: 0.9;
+    padding-top: 2px;
+}
+
+.about-subtitle{
+    font-size: 1.11rem;
+    color: #3f3f3f;
+    font-weight: 600;
+    letter-spacing: 0.988px;
+}
+
+.about-subtitle-desc{
+    font-size: 0.988rem;
+    color: #4b4a4a;
+    font-weight: 100;
+    /* letter-spacing: 0.88px; */
+}
+
+/* Serviecs Section */
+
+/* Projects Section */
+
+/* Contact Section */
+
+/* Footer Section */
+
+
+/* End  */
+
+
 
 
 
