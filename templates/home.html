@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+
+{% load static %}
+
 {% block title %}Home{% endblock title %}
 
 {% block body %}
@@ -9,7 +12,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand playfair logo" href="#">Goku</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars text-dark"></i>
@@ -41,21 +44,22 @@
     </div>
 </div>
 <!--  -->
+
 <!-- ========================= Landing Page Section ========================= -->
-<div class="container-fluid px-0 mx-0 my-5 py-5 bg-image">
+<div class="container-fluid px-0 mx-0 my-5 py-lg-5 py-2 bg-image">
     <div class="container col-md-11">
         <div class="row">
-            <div class="col-md-7 my-5 py-5">
-                <div class="p-3 landing-left-section me-5 my-4">
+            <div class="col-md-7 my-lg-5 my-2 py-lg-5 py-0">
+                <div class="p-3 landing-left-section me-lg-5 me-md-3 me-sm-0 me-0 my-lg-4 my-md-1 my-sm-0 my-0">
                     <h6 class="text introduction my-3 roboto">Introduction</h6>
-                    <div class="intro-section mb-3">
+                    <div class="intro-section mb-lg-3 mb-md-1 mb-sm-0 mb-0">
                         <h1 class="text intro-title roboto">
                             I'm Gokarna Adhikari,
                             <br>
                             And I'm a <span class="main-tag playfair"></span>
                         </h1>
                     </div>
-                    <p class="text text-start mb-5 intro-desc pe-5 me-5 pt-3 roboto">
+                    <p class="text text-start mb-lg-5 mb-md-3 intro-desc pe-lg-5 pe-md-3 pe-sm-0 pe-0 me-lg-5 me-md-3 me-sm-0 me-0 pt-3 roboto">
                         I design and develop services for customers of all sizes, modern websites, specializing in
                         creating stylish, web services and online stores. My passion is to design digital user
                         experiences through the bold interface and meaningful interactions.
@@ -67,7 +71,7 @@
                 </div>
             </div>
             <div class="col-md-5 text-end">
-                <div class="px-3">
+                <div class="px-lg-3 px-sm-0 px-0">
                     <img src="static/images/goku2.jpg" alt="" class="img-thumbnail landing-img">
                 </div>
             </div>
@@ -77,7 +81,7 @@
 <!--  -->
 
 <!-- ========================= About Page Section ========================= -->
-<div class="container-fluid px-0 mx-0 mb-5 pb-5">
+<div class="container-fluid px-0 mx-0 mb-5 pb-lg-5 pb-2">
     <div class="container col-md-11">
         <div class="row">
             <div class="col-md-5">
@@ -87,7 +91,7 @@
                 </div>
             </div>
             <div class="col-md-7">
-                <div class="p-3 landing-left-section ms-5">
+                <div class="p-3 landing-left-section ms-lg-5 ms-sm-0">
                     <!-- Education Section -->
                     <div class="title-box mb-2">
                         <h4 class="text text-start about-title roboto mb-1">Education</h4>
@@ -199,7 +203,7 @@
                         <h4 class="text text-start about-title roboto mb-1">Hobbies</h4>
                         <hr class="col-md-1 hr mt-0 mb-4">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 mb-4">
                                 <div class="hobbie-section d-flex justify-content-start align-items-center">
                                     <div
                                         class="hobbie-circle p-2 mx-3 d-flex justify-content-center align-items-center">
@@ -208,7 +212,7 @@
                                     <p class="text hobbie-category mb-0 roboto">Music</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 mb-4">
                                 <div class="hobbie-section d-flex justify-content-start align-items-center">
                                     <div
                                         class="hobbie-circle p-2 mx-3 d-flex justify-content-center align-items-center">
@@ -217,7 +221,7 @@
                                     <p class="text hobbie-category mb-0 roboto">Game</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 mb-4">
                                 <div class="hobbie-section d-flex justify-content-start align-items-center">
                                     <div
                                         class="hobbie-circle p-2 mx-3 d-flex justify-content-center align-items-center">
@@ -226,7 +230,7 @@
                                     <p class="text hobbie-category mb-0 roboto">Movie</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 mb-4">
                                 <div class="hobbie-section d-flex justify-content-start align-items-center">
                                     <div
                                         class="hobbie-circle p-2 mx-3 d-flex justify-content-center align-items-center">
@@ -258,7 +262,7 @@
         </p>
         <div class="row">
             <div class="col-md-4 mb-5 px-4">
-                <div class="p-4 bg-white shadow-sm text-center">
+                <div class="p-4 bg-white text-center border shadow-sm">
                     <div class="d-flex justify-content-center align-items-center mb-3">
                         <img src="static/images/icons/web-development.png"
                             class="service-img img-thumbnail shadow-sm bg-light" alt="">
@@ -274,7 +278,7 @@
             </div>
             <!--  -->
             <div class="col-md-4 mb-5 px-4">
-                <div class="p-4 bg-white shadow-sm text-center">
+                <div class="p-4 bg-white text-center border shadow-sm">
                     <div class="d-flex justify-content-center align-items-center mb-3">
                         <img src="static/images/icons/android-development.png"
                             class="service-img img-thumbnail shadow-sm bg-light" alt="">
@@ -290,7 +294,7 @@
             </div>
             <!--  -->
             <div class="col-md-4 mb-5 px-4">
-                <div class="p-4 bg-white shadow-sm text-center">
+                <div class="p-4 bg-white text-center border shadow-sm">
                     <div class="d-flex justify-content-center align-items-center mb-3">
                         <img src="static/images/icons/ux-ui-development.png"
                             class="service-img img-thumbnail shadow-sm bg-light" alt="">
@@ -306,7 +310,7 @@
             </div>
             <!--  -->
             <div class="col-md-4 mb-5 px-4">
-                <div class="p-4 bg-white shadow-sm text-center">
+                <div class="p-4 bg-white text-center border shadow-sm">
                     <div class="d-flex justify-content-center align-items-center mb-3">
                         <img src="static/images/icons/logo-development.png"
                             class="service-img img-thumbnail shadow-sm bg-light" alt="">
@@ -322,7 +326,7 @@
             </div>
             <!--  -->
             <div class="col-md-4 mb-5 px-4">
-                <div class="p-4 bg-white shadow-sm text-center">
+                <div class="p-4 bg-white text-center border shadow-sm">
                     <div class="d-flex justify-content-center align-items-center mb-3">
                         <img src="static/images/icons/research.png" class="service-img img-thumbnail shadow-sm bg-light"
                             alt="">
@@ -342,6 +346,300 @@
 </div>
 <!--  -->
 
+<!-- ========================= Projects Page Section ========================= -->
+<div class="container-fluid px-0 mx-0">
+    <div class="container col-md-11">
+        <!--  -->
+        <div class="px-2">
+            <p class="container col-md-1 text text-center service-tag py-1 mb-2 roboto">Projects</p>
+            <h4 class="text text-center service-title playfair mb-2">
+                Review My Projects
+            </h4>
+            <p class="container col-md-7 text text-center service-subtitle py-1 mb-4 roboto">
+                I have developed lots of projects. You can view projects and take as a references for your projects or
+                it may help you to generate ideas for you.
+            </p>
+        </div>
+        <!--  -->
+        <div class="tabs">
+            <ul class="tabs-list">
+                <li class="active">
+                    <a href="#all_project" class="btn a btn-link text-decoration-none">All</a>
+                </li>
+                <li>
+                    <a href="#web_development" class="btn a btn-link text-decoration-none">Website</a>
+                </li>
+                <li>
+                    <a href="#app_development" class="btn a btn-link text-decoration-none">Apps</a>
+                </li>
+                <li>
+                    <a href="#logo_development" class="btn a btn-link text-decoration-none">Logo</a>
+                </li>
+            </ul>
+        </div>
+        <!-- tabs -->
+        <div class="tabs my-3 py-2 px-4">
+            <div class="tab-result-section mt-5 bg-light px-3 py-1">
+                <div id="all_project" class="tab active">
+                    <div class="row">
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Mack Pets Website
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The mack pets website is all about to care about dogs...
+                                    </p>
+                                    <hr>
+                                    <a href="https://mackpets.netlify.app/" target="_blank"
+                                        class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Hostel Finder App
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The hostel finder app is all about finding hostel for students...
+                                    </p>
+                                    <hr>
+                                    <a href="#" target="_blank" class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Goku Quote Website
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The goku quote website allow you to generate quotes...
+                                    </p>
+                                    <hr>
+                                    <a href="https://github.com/gokarna123-goku/goku_quote" target="_blank"
+                                        class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div id="web_development" class="tab">
+                    <div class="row">
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Mack Pets Website
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The mack pets website is all about to care about dogs...
+                                    </p>
+                                    <hr>
+                                    <a href="https://mackpets.netlify.app/" target="_blank"
+                                        class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Goku Quote Website
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The goku quote website allow you to generate quotes...
+                                    </p>
+                                    <hr>
+                                    <a href="https://github.com/gokarna123-goku/goku_quote" target="_blank"
+                                        class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div id="app_development" class="tab">
+                    <div class="row">
+                        <div class="col-md-4 py-3 mb-3">
+                            <div class="project-box mx-2">
+                                <img src="static/images/com-bg-goku.png" class="project-img mb-3" alt="">
+                                <div class="project-description px-3 mb-3">
+                                    <h3 class="text playfair project-title mb-2">
+                                        Hostel Finder App
+                                    </h3>
+                                    <p class="text about-subtitle-desc roboto">
+                                        The hostel finder app is all about finding hostel for students...
+                                    </p>
+                                    <hr>
+                                    <a href="#" target="_blank" class="btn view-btn mb-2 w-100">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div id="logo_development" class="tab">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="p-2">
+                                <img src="static/images/logos/civiz.png" class="logo-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-2">
+                                <img src="static/images/logos/civiz.png" class="logo-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-2">
+                                <img src="static/images/logos/civiz.png" class="logo-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-2">
+                                <img src="static/images/logos/civiz.png" class="logo-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--  -->
+<hr>
+<!--  -->
+<!-- ========================= Contact Page Section ========================= -->
+<div class="container-fluid px-0 mx-0 mb-5">
+    <div class="container col-md-11">
+        <div class="px-3">
+            <div class="col-md-12">
+                <iframe style="width:100%; height: 50vh;"
+                    src="https://maps.google.com/maps?q=Thulobharyang&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <!--  -->
+            <div class="row my-4 align-items-center">
+                <h4 class="text text-center mb-4">Get in Touch</h4>
+                <div class="col-md-7 pe-lg-4 ps-sm-0">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="px-2 py-4 bg-light border border-secondary">
+                                    <div class="contact-section d-flex justify-content-start align-items-center">
+                                        <div
+                                            class="contact-circle p-2 ms-1 me-3 d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-music"></i>
+                                        </div>
+                                        <div class="">
+                                            <h6 class="text contact-title playfair">Address</h6>
+                                            <p class="text text-start contact-subtitle mb-0 roboto">
+                                                Thulobharyang, ktm, 44600
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-6 mb-4">
+                                <div class="px-2 py-4 bg-light border border-secondary">
+                                    <div class="contact-section d-flex justify-content-start align-items-center">
+                                        <div
+                                            class="contact-circle p-2 ms-1 me-3 d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-music"></i>
+                                        </div>
+                                        <div class="">
+                                            <h6 class="text contact-title playfair">Contact Number</h6>
+                                            <p class="text text-start contact-subtitle mb-0 roboto">
+                                                +977-9898989898
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-6 mb-4">
+                                <div class="px-2 py-4 bg-light border border-secondary">
+                                    <div class="contact-section d-flex justify-content-start align-items-center">
+                                        <div
+                                            class="contact-circle p-2 ms-1 me-3 d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-music"></i>
+                                        </div>
+                                        <div class="">
+                                            <h6 class="text contact-title playfair">Email Address</h6>
+                                            <p class="text text-start contact-subtitle mb-0 roboto">
+                                                agokarna444@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-6 mb-4">
+                                <div class="px-2 py-4 bg-light border border-secondary">
+                                    <div class="contact-section d-flex justify-content-start align-items-center">
+                                        <div
+                                            class="contact-circle p-2 ms-1 me-3 d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-music"></i>
+                                        </div>
+                                        <div class="">
+                                            <h6 class="text contact-title playfair">Contact Number</h6>
+                                            <p class="text text-start contact-subtitle mb-0 roboto">
+                                                +977-9898989898
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 ps-lg-5 ps-sm-0">
+                    <div class="p-2">
+                        <form>
+                            <div class="mb-3">
+                                <label for="fullname" class="mb-2 text-secondary contact-label roboto">Full Name</label>
+                                <input type="text" id="fullname" class="form-control contact-form roboto"
+                                    placeholder="your fullname...">
+                            </div>
+                            <!--  -->
+                            <div class="mb-3">
+                                <label for="email_id" class="mb-2 text-secondary contact-label roboto">Email
+                                    Address</label>
+                                <input type="email" id="email_id" class="form-control contact-form roboto"
+                                    placeholder="yourmailid@gmail.com">
+                            </div>
+                            <!--  -->
+                            <div class="mb-4">
+                                <label for="your_message" class="mb-2 text-secondary contact-label roboto">Type your
+                                    message</label>
+                                <textarea name="your_message" id="your_message" rows="3" class="form-control contact-form roboto"
+                                    placeholder="Type your message..."></textarea>
+                            </div>
+                            <!--  -->
+                            <button type="submit" class="btn w-100 view-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+
+
+
 
 {% endblock body %}
