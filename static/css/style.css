@@ -330,7 +330,7 @@
 }
 
 /* media query */
-@media screen and (max-width:360px){
+/* @media screen and (max-width:360px){
     .tabs{
         margin:0;
         width:96%;
@@ -338,7 +338,7 @@
     .tabs .tabs-list li{
         width:80px;
     }
-}
+} */
 
 .project-box{
     background: #fff;
@@ -448,15 +448,34 @@
 /* Media Query (Responsive) Section */
 
 
-/* @media screen and (max-width: 768px) {
-    
-} */
+@media screen and (max-width: 768px) {
+    .intro-title{
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        letter-spacing: 2.0px;
+    }
+
+    .landing-img{
+        height: 50vh;
+        object-position: center;
+    }
+
+    .img-thumbnail{
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .about-section .img-thumbnail{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
 
 
 @media screen and (max-width: 468px) {
     .bg-image{
         background-image: linear-gradient(to bottom rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url('/static/images/com-bg-goku.png');
-        background-position: center center;
+        background-position: center;
         height: 100vh;
     }
     
@@ -465,20 +484,20 @@
     }
 
     .intro-title{
-        font-size: 1.8rem;
-        line-height: 2.2rem;
-        letter-spacing: 1.6px;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        letter-spacing: 1.4px;
     }
 
-    /* .intro-desc{
-        font-size: 0.983rem;
-        color: #c1c1c1;
-        line-height: 1.40rem;
-        letter-spacing: 0.88px;
-    } */
+    .intro-desc{
+        font-size: 0.79rem;
+        line-height: 1.10rem;
+        letter-spacing: 0.68px;
+    }
 
     .landing-img{
-        height: 49vh;
+        height: 51vh;
+        object-position: center;
     }
 
     .img-thumbnail{
@@ -492,7 +511,8 @@
     }
     
     .about-img{
-        height: 45vh;
+        height: 52vh;
+        object-position: center;
     }
 
 }
