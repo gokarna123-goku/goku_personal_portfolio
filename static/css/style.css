@@ -68,7 +68,7 @@
 
 .logo{
     font-size: 1.5rem;
-    color: #005845;
+    color: #5800ff;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -77,14 +77,18 @@
     border-bottom: 2px solid #fff;
     margin: 0 5px;
 } */
+.nav-bg{
+    background: #1f1f1f;
+}
 
 .nav-link{
     font-size: 1.25rem;
-    color: #3f3f3f;
+    color: #bbc8de;
     font-weight: 600;
     letter-spacing: 1px;
     transition: 0.78s;
 }
+
 .nav-link:hover{
     color: #005845;
 }
